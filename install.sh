@@ -18,5 +18,4 @@ cp ffmpeg /usr/bin
 
 cp ffplay /usr/bin
 
-cp ffprobe /usr/bin
 
