@@ -2,7 +2,7 @@
 
 apt -y update && apt -y upgrade && apt -y install  libsdl2-dev libva-dev ffmpeg libavformat-dev libavcodec-dev libswscale-dev zip wget libxcb-shm0-dev libxcb-xfixes0-dev
 
-cd FFmpeg-install
+cd ffmpeg-arm-install
 
 unzip ffmpeg.zip
 
