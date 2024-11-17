@@ -1,4 +1,4 @@
-Cài đặt ffmpeg để stream webRTC. Phiên bản Ubuntu 22.04
+Cài đặt ffmpeg để stream webRTC. Phiên bản cho Arm
 
 1. Install:
    
