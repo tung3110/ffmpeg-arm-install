@@ -1,4 +1,4 @@
-Cài đặt ffmpeg để stream webRTC. Phiên bản cho Arm
+Cài đặt ffmpeg để stream webRTC. Phiên bản cho aarch64
 
 1. Install:
    
