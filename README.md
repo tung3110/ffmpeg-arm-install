@@ -2,7 +2,7 @@ Cài đặt ffmpeg để stream webRTC. Phiên bản cho aarch64
 
 1. Install:
    
-   apt -y update && apt -y install git && git clone https://github.com/tung3110/ffmpeg-arm-install.git && bash ./ffmpeg-arm-install/install.sh
+   apt -y install git && git clone https://github.com/tung3110/ffmpeg-arm-install.git && bash ./ffmpeg-arm-install/install.sh
 
 3. Test thử:
    
