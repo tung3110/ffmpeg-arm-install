@@ -1,15 +1,12 @@
 # Cài đặt ffmpeg để stream webRTC. Phiên bản cho aarch64
 
-1. Install:
-   
    apt -y install git && git clone https://github.com/tung3110/ffmpeg-arm-install.git && bash ./ffmpeg-arm-install/install.sh
+   
 # Cài đặt ffmpeg để stream webRTC. Phiên bản cho armv71
 
-1. Install:
+   apt -y install git && git clone https://github.com/tung3110/ffmpeg-arm-install.git && bash ./ffmpeg-arm-install/install-armv71.sh   
    
-   apt -y install git && git clone https://github.com/tung3110/ffmpeg-arm-install.git && bash ./ffmpeg-arm-install/install-armv71.sh
-   
-3. Test thử:
+# Test thử:
    
    wget https://schedule.truyenthanhso.vn/VsClient/muabao.mp3
 
