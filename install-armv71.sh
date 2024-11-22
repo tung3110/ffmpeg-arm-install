@@ -6,7 +6,7 @@ cd ffmpeg-arm-install
 
 unzip ffmpeg-armv71.zip
 
-cd ffmpeg
+cd ffmpeg-armv71
 
 cp libffmpeg/libx264.so.155  /usr/lib/arm-linux-gnueabihf/libx264.so.155
 
