@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt -y update && apt -y install  libsdl2-dev libva-dev ffmpeg libavformat-dev libavcodec-dev libswscale-dev zip wget libxcb-shm0-dev libxcb-xfixes0-dev && update-locale LANG=en_US.UTF-8 && systemctl set-environment LANG=en_US.UTF-8
+apt -y update && apt -y install  libsdl2-dev libva-dev ffmpeg libavformat-dev libavcodec-dev libswscale-dev zip wget libxcb-shm0-dev libxcb-xfixes0-dev && language-pack-en && update-locale LANG=en_US.UTF-8 && systemctl set-environment LANG=en_US.UTF-8
 
 chmod -R u+x ffmpeg-arm-install
 
