@@ -12,5 +12,4 @@
 
    ffmpeg -re -i muabao.mp3 -acodec opus -strict -2 -ar 48000 -b:a 32k -ac 1 -f webrtc "https://yourdomain.com/rtc/v1/whip/?app=live&stream=livestream123456"
 
-   ffplay -i -fflags nobuffer -max_delay 0 -max_probe_packets 1 -analyzeduration 0 -flags +low_delay "webrtc://yourdomain.com/rtc
-/v1/whep/?app=live&stream=tungdev3" -nodisp 
+   ffplay -i -fflags nobuffer -max_delay 0 -max_probe_packets 1 -analyzeduration 0 -flags +low_delay "webrtc://live-prod.truyenthanhso.vn/rtc/v1/whep/?app=live&stream=f26b30d9a6ff40aeab5ca2a000cb7ede_tungdev" -nodisp 
